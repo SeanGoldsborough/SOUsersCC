@@ -16,6 +16,54 @@
 		41382CFD23BF7665005940AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41382CFB23BF7664005940AD /* LaunchScreen.storyboard */; };
 		41382D0823BF7665005940AD /* ScratchAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41382D0723BF7665005940AD /* ScratchAppTests.swift */; };
 		41382D1323BF7665005940AD /* ScratchAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41382D1223BF7665005940AD /* ScratchAppUITests.swift */; };
+		41382D2223BF7887005940AD /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41382D2023BF7887005940AD /* CustomTableViewCell.swift */; };
+		41382D2323BF7887005940AD /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41382D2123BF7887005940AD /* CustomTableViewCell.xib */; };
+		41382D2523BF821D005940AD /* UIColor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41382D2423BF821D005940AD /* UIColor+Ext.swift */; };
+		41382D2723BF8FCF005940AD /* Int+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41382D2623BF8FCF005940AD /* Int+Ext.swift */; };
+		41382D2C23BF91BF005940AD /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41382D2923BF91BF005940AD /* Base.swift */; };
+		41382D2D23BF91BF005940AD /* Items.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41382D2A23BF91BF005940AD /* Items.swift */; };
+		41382D2E23BF91BF005940AD /* Badge_counts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41382D2B23BF91BF005940AD /* Badge_counts.swift */; };
+		41382D3123BF920A005940AD /* URLBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41382D3023BF920A005940AD /* URLBuilder.swift */; };
+		41382D3323BF921A005940AD /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41382D3223BF921A005940AD /* APIClient.swift */; };
+		41382D3823BF95D8005940AD /* GCD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41382D3723BF95D8005940AD /* GCD.swift */; };
+		41382D3B23BFABDA005940AD /* AlertViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41382D3A23BFABDA005940AD /* AlertViews.swift */; };
+		41382D3E23BFCFE4005940AD /* APIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41382D3D23BFCFE4005940AD /* APIConstants.swift */; };
+		41E1493A23C2FCB200AEDC93 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41382CF123BF7660005940AD /* ViewController.swift */; };
+		41E1493B23C2FCB200AEDC93 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41382CF123BF7660005940AD /* ViewController.swift */; };
+		41E1493C23C2FCC300AEDC93 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41382D2023BF7887005940AD /* CustomTableViewCell.swift */; };
+		41E1493D23C2FCC400AEDC93 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41382D2023BF7887005940AD /* CustomTableViewCell.swift */; };
+		41E1493E23C2FCDA00AEDC93 /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41382D2123BF7887005940AD /* CustomTableViewCell.xib */; };
+		41E1493F23C2FCDA00AEDC93 /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41382D2123BF7887005940AD /* CustomTableViewCell.xib */; };
+		41E1494023C2FCDE00AEDC93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41382CF323BF7660005940AD /* Main.storyboard */; };
+		41E1494123C2FCDF00AEDC93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41382CF323BF7660005940AD /* Main.storyboard */; };
+		41E1494223C2FCE200AEDC93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41382CFB23BF7664005940AD /* LaunchScreen.storyboard */; };
+		41E1494323C2FCE300AEDC93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41382CFB23BF7664005940AD /* LaunchScreen.storyboard */; };
+		41E1494423C2FCEB00AEDC93 /* AlertViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41382D3A23BFABDA005940AD /* AlertViews.swift */; };
+		41E1494523C2FCEB00AEDC93 /* AlertViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41382D3A23BFABDA005940AD /* AlertViews.swift */; };
+		41E1494623C2FD0300AEDC93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41382CED23BF7660005940AD /* AppDelegate.swift */; };
+		41E1494723C2FD0300AEDC93 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41382CEF23BF7660005940AD /* SceneDelegate.swift */; };
+		41E1494823C2FD0300AEDC93 /* GCD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41382D3723BF95D8005940AD /* GCD.swift */; };
+		41E1494923C2FD0400AEDC93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41382CED23BF7660005940AD /* AppDelegate.swift */; };
+		41E1494A23C2FD0400AEDC93 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41382CEF23BF7660005940AD /* SceneDelegate.swift */; };
+		41E1494B23C2FD0400AEDC93 /* GCD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41382D3723BF95D8005940AD /* GCD.swift */; };
+		41E1494C23C2FD0900AEDC93 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41382D3223BF921A005940AD /* APIClient.swift */; };
+		41E1494D23C2FD0900AEDC93 /* APIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41382D3D23BFCFE4005940AD /* APIConstants.swift */; };
+		41E1494E23C2FD0900AEDC93 /* URLBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41382D3023BF920A005940AD /* URLBuilder.swift */; };
+		41E1494F23C2FD0A00AEDC93 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41382D3223BF921A005940AD /* APIClient.swift */; };
+		41E1495023C2FD0A00AEDC93 /* APIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41382D3D23BFCFE4005940AD /* APIConstants.swift */; };
+		41E1495123C2FD0A00AEDC93 /* URLBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41382D3023BF920A005940AD /* URLBuilder.swift */; };
+		41E1495223C2FD0E00AEDC93 /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41382D2923BF91BF005940AD /* Base.swift */; };
+		41E1495323C2FD0E00AEDC93 /* Items.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41382D2A23BF91BF005940AD /* Items.swift */; };
+		41E1495423C2FD0E00AEDC93 /* Badge_counts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41382D2B23BF91BF005940AD /* Badge_counts.swift */; };
+		41E1495523C2FD0F00AEDC93 /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41382D2923BF91BF005940AD /* Base.swift */; };
+		41E1495623C2FD0F00AEDC93 /* Items.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41382D2A23BF91BF005940AD /* Items.swift */; };
+		41E1495723C2FD0F00AEDC93 /* Badge_counts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41382D2B23BF91BF005940AD /* Badge_counts.swift */; };
+		41E1495823C2FD1300AEDC93 /* ScratchApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 41382CF623BF7660005940AD /* ScratchApp.xcdatamodeld */; };
+		41E1495923C2FD1400AEDC93 /* ScratchApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 41382CF623BF7660005940AD /* ScratchApp.xcdatamodeld */; };
+		41E1495A23C2FD1900AEDC93 /* UIColor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41382D2423BF821D005940AD /* UIColor+Ext.swift */; };
+		41E1495B23C2FD1900AEDC93 /* Int+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41382D2623BF8FCF005940AD /* Int+Ext.swift */; };
+		41E1495C23C2FD1A00AEDC93 /* UIColor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41382D2423BF821D005940AD /* UIColor+Ext.swift */; };
+		41E1495D23C2FD1A00AEDC93 /* Int+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41382D2623BF8FCF005940AD /* Int+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +84,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		41382CEA23BF7660005940AD /* ScratchApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScratchApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		41382CEA23BF7660005940AD /* SOUsers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SOUsers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41382CED23BF7660005940AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		41382CEF23BF7660005940AD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		41382CF123BF7660005940AD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -51,6 +99,18 @@
 		41382D0E23BF7665005940AD /* ScratchAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScratchAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		41382D1223BF7665005940AD /* ScratchAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScratchAppUITests.swift; sourceTree = "<group>"; };
 		41382D1423BF7665005940AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41382D2023BF7887005940AD /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		41382D2123BF7887005940AD /* CustomTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
+		41382D2423BF821D005940AD /* UIColor+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Ext.swift"; sourceTree = "<group>"; };
+		41382D2623BF8FCF005940AD /* Int+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Ext.swift"; sourceTree = "<group>"; };
+		41382D2923BF91BF005940AD /* Base.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Base.swift; sourceTree = "<group>"; };
+		41382D2A23BF91BF005940AD /* Items.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Items.swift; sourceTree = "<group>"; };
+		41382D2B23BF91BF005940AD /* Badge_counts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Badge_counts.swift; sourceTree = "<group>"; };
+		41382D3023BF920A005940AD /* URLBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLBuilder.swift; sourceTree = "<group>"; };
+		41382D3223BF921A005940AD /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		41382D3723BF95D8005940AD /* GCD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GCD.swift; sourceTree = "<group>"; };
+		41382D3A23BFABDA005940AD /* AlertViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertViews.swift; sourceTree = "<group>"; };
+		41382D3D23BFCFE4005940AD /* APIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConstants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,7 +151,7 @@
 		41382CEB23BF7660005940AD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				41382CEA23BF7660005940AD /* ScratchApp.app */,
+				41382CEA23BF7660005940AD /* SOUsers.app */,
 				41382D0323BF7665005940AD /* ScratchAppTests.xctest */,
 				41382D0E23BF7665005940AD /* ScratchAppUITests.xctest */,
 			);
@@ -101,14 +161,13 @@
 		41382CEC23BF7660005940AD /* ScratchApp */ = {
 			isa = PBXGroup;
 			children = (
-				41382CED23BF7660005940AD /* AppDelegate.swift */,
-				41382CEF23BF7660005940AD /* SceneDelegate.swift */,
-				41382CF123BF7660005940AD /* ViewController.swift */,
-				41382CF323BF7660005940AD /* Main.storyboard */,
-				41382CF923BF7664005940AD /* Assets.xcassets */,
-				41382CFB23BF7664005940AD /* LaunchScreen.storyboard */,
+				41382D3923BF99C5005940AD /* Support */,
+				41382D2F23BF91FA005940AD /* Networking */,
+				41382D2823BF91B2005940AD /* Models */,
+				41382D3423BF930D005940AD /* Views */,
+				41382D3523BF9317005940AD /* Controllers */,
+				41382D3623BF9321005940AD /* Extensions */,
 				41382CFE23BF7665005940AD /* Info.plist */,
-				41382CF623BF7660005940AD /* ScratchApp.xcdatamodeld */,
 			);
 			path = ScratchApp;
 			sourceTree = "<group>";
@@ -131,6 +190,67 @@
 			path = ScratchAppUITests;
 			sourceTree = "<group>";
 		};
+		41382D2823BF91B2005940AD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				41382D2923BF91BF005940AD /* Base.swift */,
+				41382D2A23BF91BF005940AD /* Items.swift */,
+				41382D2B23BF91BF005940AD /* Badge_counts.swift */,
+				41382CF623BF7660005940AD /* ScratchApp.xcdatamodeld */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		41382D2F23BF91FA005940AD /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				41382D3223BF921A005940AD /* APIClient.swift */,
+				41382D3D23BFCFE4005940AD /* APIConstants.swift */,
+				41382D3023BF920A005940AD /* URLBuilder.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		41382D3423BF930D005940AD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				41382CFB23BF7664005940AD /* LaunchScreen.storyboard */,
+				41382CF323BF7660005940AD /* Main.storyboard */,
+				41382D2123BF7887005940AD /* CustomTableViewCell.xib */,
+				41382D2023BF7887005940AD /* CustomTableViewCell.swift */,
+				41382D3A23BFABDA005940AD /* AlertViews.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		41382D3523BF9317005940AD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				41382CF123BF7660005940AD /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		41382D3623BF9321005940AD /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				41382D2423BF821D005940AD /* UIColor+Ext.swift */,
+				41382D2623BF8FCF005940AD /* Int+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		41382D3923BF99C5005940AD /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				41382CED23BF7660005940AD /* AppDelegate.swift */,
+				41382CEF23BF7660005940AD /* SceneDelegate.swift */,
+				41382D3723BF95D8005940AD /* GCD.swift */,
+				41382CF923BF7664005940AD /* Assets.xcassets */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -148,7 +268,7 @@
 			);
 			name = ScratchApp;
 			productName = ScratchApp;
-			productReference = 41382CEA23BF7660005940AD /* ScratchApp.app */;
+			productReference = 41382CEA23BF7660005940AD /* SOUsers.app */;
 			productType = "com.apple.product-type.application";
 		};
 		41382D0223BF7665005940AD /* ScratchAppTests */ = {
@@ -237,6 +357,7 @@
 			files = (
 				41382CFD23BF7665005940AD /* LaunchScreen.storyboard in Resources */,
 				41382CFA23BF7664005940AD /* Assets.xcassets in Resources */,
+				41382D2323BF7887005940AD /* CustomTableViewCell.xib in Resources */,
 				41382CF523BF7660005940AD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -245,6 +366,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41E1494223C2FCE200AEDC93 /* LaunchScreen.storyboard in Resources */,
+				41E1493E23C2FCDA00AEDC93 /* CustomTableViewCell.xib in Resources */,
+				41E1494023C2FCDE00AEDC93 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +376,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41E1494323C2FCE300AEDC93 /* LaunchScreen.storyboard in Resources */,
+				41E1493F23C2FCDA00AEDC93 /* CustomTableViewCell.xib in Resources */,
+				41E1494123C2FCDF00AEDC93 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,10 +389,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41382D2723BF8FCF005940AD /* Int+Ext.swift in Sources */,
+				41382D3823BF95D8005940AD /* GCD.swift in Sources */,
 				41382CF823BF7660005940AD /* ScratchApp.xcdatamodeld in Sources */,
+				41382D2223BF7887005940AD /* CustomTableViewCell.swift in Sources */,
+				41382D3123BF920A005940AD /* URLBuilder.swift in Sources */,
 				41382CF223BF7660005940AD /* ViewController.swift in Sources */,
+				41382D2D23BF91BF005940AD /* Items.swift in Sources */,
+				41382D2E23BF91BF005940AD /* Badge_counts.swift in Sources */,
 				41382CEE23BF7660005940AD /* AppDelegate.swift in Sources */,
+				41382D3B23BFABDA005940AD /* AlertViews.swift in Sources */,
+				41382D2C23BF91BF005940AD /* Base.swift in Sources */,
+				41382D3E23BFCFE4005940AD /* APIConstants.swift in Sources */,
 				41382CF023BF7660005940AD /* SceneDelegate.swift in Sources */,
+				41382D3323BF921A005940AD /* APIClient.swift in Sources */,
+				41382D2523BF821D005940AD /* UIColor+Ext.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +411,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41E1495823C2FD1300AEDC93 /* ScratchApp.xcdatamodeld in Sources */,
+				41E1494823C2FD0300AEDC93 /* GCD.swift in Sources */,
+				41E1493C23C2FCC300AEDC93 /* CustomTableViewCell.swift in Sources */,
+				41E1494423C2FCEB00AEDC93 /* AlertViews.swift in Sources */,
+				41E1494C23C2FD0900AEDC93 /* APIClient.swift in Sources */,
+				41E1495323C2FD0E00AEDC93 /* Items.swift in Sources */,
+				41E1493A23C2FCB200AEDC93 /* ViewController.swift in Sources */,
+				41E1495423C2FD0E00AEDC93 /* Badge_counts.swift in Sources */,
+				41E1494E23C2FD0900AEDC93 /* URLBuilder.swift in Sources */,
+				41E1494D23C2FD0900AEDC93 /* APIConstants.swift in Sources */,
+				41E1494623C2FD0300AEDC93 /* AppDelegate.swift in Sources */,
 				41382D0823BF7665005940AD /* ScratchAppTests.swift in Sources */,
+				41E1495A23C2FD1900AEDC93 /* UIColor+Ext.swift in Sources */,
+				41E1494723C2FD0300AEDC93 /* SceneDelegate.swift in Sources */,
+				41E1495223C2FD0E00AEDC93 /* Base.swift in Sources */,
+				41E1495B23C2FD1900AEDC93 /* Int+Ext.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,7 +434,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41E1495923C2FD1400AEDC93 /* ScratchApp.xcdatamodeld in Sources */,
+				41E1494B23C2FD0400AEDC93 /* GCD.swift in Sources */,
+				41E1493D23C2FCC400AEDC93 /* CustomTableViewCell.swift in Sources */,
+				41E1494523C2FCEB00AEDC93 /* AlertViews.swift in Sources */,
+				41E1494F23C2FD0A00AEDC93 /* APIClient.swift in Sources */,
+				41E1495623C2FD0F00AEDC93 /* Items.swift in Sources */,
+				41E1493B23C2FCB200AEDC93 /* ViewController.swift in Sources */,
+				41E1495723C2FD0F00AEDC93 /* Badge_counts.swift in Sources */,
+				41E1495123C2FD0A00AEDC93 /* URLBuilder.swift in Sources */,
+				41E1495023C2FD0A00AEDC93 /* APIConstants.swift in Sources */,
+				41E1494923C2FD0400AEDC93 /* AppDelegate.swift in Sources */,
 				41382D1323BF7665005940AD /* ScratchAppUITests.swift in Sources */,
+				41E1495C23C2FD1A00AEDC93 /* UIColor+Ext.swift in Sources */,
+				41E1494A23C2FD0400AEDC93 /* SceneDelegate.swift in Sources */,
+				41E1495523C2FD0F00AEDC93 /* Base.swift in Sources */,
+				41E1495D23C2FD1A00AEDC93 /* Int+Ext.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,14 +609,15 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3NA78F3F7G;
 				INFOPLIST_FILE = ScratchApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sean.ScratchApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SOUsers;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -459,14 +628,15 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3NA78F3F7G;
 				INFOPLIST_FILE = ScratchApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sean.ScratchApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SOUsers;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

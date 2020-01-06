@@ -6,8 +6,9 @@
 //  Copyright © 2020 Sean Goldsborough. All rights reserved.
 //
 
+
 import XCTest
-@testable import ScratchApp
+@testable import SOUsers
 
 class ScratchAppTests: XCTestCase {
 
@@ -32,3 +33,5 @@ class ScratchAppTests: XCTestCase {
     }
 
 }
+
+
