@@ -28,6 +28,7 @@
 		41382D3823BF95D8005940AD /* GCD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41382D3723BF95D8005940AD /* GCD.swift */; };
 		41382D3B23BFABDA005940AD /* AlertViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41382D3A23BFABDA005940AD /* AlertViews.swift */; };
 		41382D3E23BFCFE4005940AD /* APIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41382D3D23BFCFE4005940AD /* APIConstants.swift */; };
+		41D2E61E23C3C1110049638D /* UIColors+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D2E61D23C3C1110049638D /* UIColors+Ext.swift */; };
 		41E1493A23C2FCB200AEDC93 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41382CF123BF7660005940AD /* ViewController.swift */; };
 		41E1493B23C2FCB200AEDC93 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41382CF123BF7660005940AD /* ViewController.swift */; };
 		41E1493C23C2FCC300AEDC93 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41382D2023BF7887005940AD /* CustomTableViewCell.swift */; };
@@ -111,6 +112,7 @@
 		41382D3723BF95D8005940AD /* GCD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GCD.swift; sourceTree = "<group>"; };
 		41382D3A23BFABDA005940AD /* AlertViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertViews.swift; sourceTree = "<group>"; };
 		41382D3D23BFCFE4005940AD /* APIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConstants.swift; sourceTree = "<group>"; };
+		41D2E61D23C3C1110049638D /* UIColors+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColors+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -236,6 +238,7 @@
 			children = (
 				41382D2423BF821D005940AD /* UIColor+Ext.swift */,
 				41382D2623BF8FCF005940AD /* Int+Ext.swift */,
+				41D2E61D23C3C1110049638D /* UIColors+Ext.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -398,6 +401,7 @@
 				41382D2D23BF91BF005940AD /* Items.swift in Sources */,
 				41382D2E23BF91BF005940AD /* Badge_counts.swift in Sources */,
 				41382CEE23BF7660005940AD /* AppDelegate.swift in Sources */,
+				41D2E61E23C3C1110049638D /* UIColors+Ext.swift in Sources */,
 				41382D3B23BFABDA005940AD /* AlertViews.swift in Sources */,
 				41382D2C23BF91BF005940AD /* Base.swift in Sources */,
 				41382D3E23BFCFE4005940AD /* APIConstants.swift in Sources */,
