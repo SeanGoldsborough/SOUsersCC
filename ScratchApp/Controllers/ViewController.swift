@@ -23,6 +23,8 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     var api = APIClient()
     var users: [NSManagedObject] = []
     
+    let methodParameters = ["site": "stackoverflow", "page" : "1"] as [String : AnyObject]
+    
     fileprivate func setupFetchedResultsController() {
 
         let fetchRequest:NSFetchRequest<User> = User.fetchRequest()
@@ -58,11 +60,10 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         
         if fetchedResultsController.fetchedObjects?.count == 0 {
             APIClient.sharedInstance().getData(completed: { result in
-
                 switch result {
                 case .success:
-                    print("success on get users")
                     performUpdatesOnMain {
+                        self.fetchData()
                         self.tableView.reloadData()
                         self.appDelegate.saveContext()
                         self.mainActivityIndicator.stopAnimating()
@@ -78,38 +79,32 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
                 }
             })
             self.appDelegate.saveContext()
+        } else {
+            self.fetchData()
         }
-        print(users.count)
     }
     
-    override func viewWillAppear(_ animated: Bool) {
-      super.viewWillAppear(animated)
+    func fetchData() {
+        guard let appDelegate = UIApplication.shared.delegate as? AppDelegate else { return }
+        let managedContext = appDelegate.persistentContainer.viewContext
+        let fetchRequest = NSFetchRequest<NSManagedObject>(entityName: "User")
         
-        performUpdatesOnMain {
-            self.mainActivityIndicator.startAnimating()
+        do {
+          users = try managedContext.fetch(fetchRequest)
+          performUpdatesOnMain {
+              self.tableView.reloadData()
+              self.appDelegate.saveContext()
+              self.mainActivityIndicator.stopAnimating()
+              self.mainActivityIndicator.isHidden = true
+          }
+        } catch let error as NSError {
+          print("Could not fetch. \(error), \(error.userInfo)")
+          self.mainActivityIndicator.stopAnimating()
+          self.mainActivityIndicator.isHidden = true
+          AlertView.alertPopUp(view: self, alertMessage: "\(error)")
         }
-
-      guard let appDelegate = UIApplication.shared.delegate as? AppDelegate else { return }
-      let managedContext = appDelegate.persistentContainer.viewContext
-      let fetchRequest = NSFetchRequest<NSManagedObject>(entityName: "User")
-      
-      do {
-        users = try managedContext.fetch(fetchRequest)
-        print("fetch called", users.count)
-        performUpdatesOnMain {
-            self.tableView.reloadData()
-            self.appDelegate.saveContext()
-            self.mainActivityIndicator.stopAnimating()
-            self.mainActivityIndicator.isHidden = true
-        }
-      } catch let error as NSError {
-        print("Could not fetch. \(error), \(error.userInfo)")
-        self.mainActivityIndicator.stopAnimating()
-        self.mainActivityIndicator.isHidden = true
-        AlertView.alertPopUp(view: self, alertMessage: "\(error)")
-      }
     }
-        
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return users.count
     }
@@ -151,6 +146,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     private func configImage(cell: CustomTableViewCell, user: User, tableView: UITableView, indexPath: IndexPath) {
 
         if let imageData = user.avatarData {
+         
             cell.imageActivityIndicator.stopAnimating()
             cell.imageActivityIndicator.isHidden = true
             cell.userAvatarImage.image = UIImage(data: Data(referencing: imageData as NSData))
