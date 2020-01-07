@@ -40,13 +40,6 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         }
     }
     
-    func removeAllUsers() {
-        print(fetchedResultsController.fetchedObjects!.count)
-        for object in fetchedResultsController.fetchedObjects! {
-            context.delete(object)
-        }
-    }
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         setupFetchedResultsController()
